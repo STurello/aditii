@@ -1,0 +1,188 @@
+:root {
+    --primColor: turquoise;
+    --secColor: #2daba0;
+    --textColor: gray;
+    --btnColor: #3ad39b;
+    --font: 'lobster', cursive, sans-serif;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.inner {
+    margin: 0px 90px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* header */
+
+.heading {
+    display: inline;
+}
+
+.aditii {
+    font-size: 40px;
+    font-family: var(--font);
+    color: var(--primColor);
+}
+
+.header-nav {
+    height: 40px;
+    background-color: var(--primColor);
+}
+
+.top-list-item {
+    display: inline;
+    border-right: 2px solid white;
+}
+
+.top-list-item:last-child {
+    border-right: none;
+}
+
+.top-list-item a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-display {
+    height: 300px;
+    background-color: var(--secColor);
+}
+
+.advertisement {
+    width: 230px;
+}
+
+.inner-advertisement {
+    display: flex;
+}
+
+.main-advertisement {
+    color: white;
+    text-transform: uppercase;
+}
+
+.advertisement-text {
+    color: white;
+}
+
+.shop-now {
+    width: 150px;
+    color: white;
+    background-color: var(--secColor);
+    border-radius: 5px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 20px
+}
+
+/* close header */
+
+/* main */
+
+.inner-product {
+    display: flex;
+}
+
+.shop-product {
+    width: 350px;
+}
+
+.upper-main :nth-child(2) {
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+
+.upper-branded {
+    color: var(--textColor);
+    text-transform: uppercase;
+}
+
+.upper-img, .lower-img {
+    width: 200px;
+}
+
+.shop-btn {
+    height: 25px;
+    width: 50px;
+    color: white;
+    background-color: var(--btnColor);
+    border: 1px solid white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 10px
+}
+
+.mid-section {
+    height: 60px;
+    color: white;
+    background-color: var(--secColor);
+    text-transform: uppercase;
+}
+
+.inner-featured {
+    display: flex;
+    align-content: space-between;
+}
+
+.featured-product {
+    width: 300px;
+    color: var(--textColor);
+    border: 1px solid gainsboro;
+    border-bottom: 5px solid var(--btnColor);
+}
+
+.buy-now {
+    height: 25px;
+    width: 90px;
+    color: white;
+    background-color: var(--btnColor);
+    border: 1px solid white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 10px
+}
+
+/* close main */
+
+/* footer */
+
+.footer {
+    background-color: var(--primColor);
+}
+
+.upper-footer {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.bottom-nav {
+    display: flex;
+    align-items: center;
+}
+
+.directory-header {
+    padding: 0px 60px;
+    display: inline;
+    text-transform: uppercase;
+}
+
+.footer-links {
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+.lower-footer {
+    height: 40px;
+    background-color: var(--secColor);
+    color: white;
+}
+
+/* close footer */

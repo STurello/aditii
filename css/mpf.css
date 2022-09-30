@@ -1,0 +1,190 @@
+:root {
+    --primColor: turquoise;
+    --secColor: #2daba0;
+    --textColor: gray;
+    --btnColor: #3ad39b;
+    --font: 'lobster', cursive, sans-serif;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    margin: 0px 90px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* header */
+
+.heading {
+    display: inline;
+}
+
+.aditii {
+    font-size: 40px;
+    font-family: var(--font);
+    color: var(--primColor);
+}
+
+.header-nav {
+    height: 40px;
+    background-color: var(--primColor);
+}
+
+.top-list-item {
+    display: inline;
+    border-right: 2px solid white;
+}
+
+.top-list-item:last-child {
+    border-right: none;
+}
+
+.top-list-item a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-display {
+    height: 400px;
+    padding: 90px 100px;
+    background-color: var(--secColor);
+}
+
+.big-shirt {
+    float: left;
+}
+
+.advertisement {
+    width: 230px;
+    float: right;
+}
+
+.main-advertisement {
+    color: white;
+    text-transform: uppercase;
+}
+
+.advertisement-text {
+    color: white;
+}
+
+.shop-now {
+    width: 150px;
+    color: white;
+    background-color: var(--secColor);
+    border-radius: 5px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 20px
+}
+
+/* close header */
+
+/* main */
+
+.shop-product {
+    width: 350px;
+    float: left;
+}
+
+.upper-main :nth-child(2) {
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+
+.upper-branded {
+    color: var(--textColor);
+    text-transform: uppercase;
+}
+
+.upper-img, .lower-img {
+    width: 200px;
+}
+
+.shop-btn {
+    height: 25px;
+    width: 50px;
+    color: white;
+    background-color: var(--btnColor);
+    border: 1px solid white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 10px
+}
+
+.mid-section {
+    height: 60px;
+    color: white;
+    background-color: var(--secColor);
+    text-transform: uppercase;
+}
+
+.featured-product {
+    width: 300px;
+    float: left;
+    color: var(--textColor);
+    border: 1px solid gainsboro;
+    border-bottom: 5px solid var(--btnColor);
+}
+
+.buy-now {
+    height: 25px;
+    width: 90px;
+    color: white;
+    background-color: var(--btnColor);
+    border: 1px solid white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 10px
+}
+
+/* close main */
+
+/* footer */
+
+.footer {
+    background-color: var(--primColor);
+}
+
+.upper-footer {
+    color: white;
+}
+
+.footer-directory {
+    padding: 10px;
+    float: left;
+}
+
+.directory-header {
+    display: inline;
+    text-transform: uppercase;
+}
+
+.footer-links {
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+.lower-footer {
+    height: 40px;
+    background-color: var(--secColor);
+    color: white;
+}
+
+/* close footer */
+
+.clear {
+    clear: both;
+}
